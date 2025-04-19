@@ -1,0 +1,24 @@
+On the two versions of the Stanford data there is a disclaimer about
+the difference between the two. I was wondering if it would be helpful 
+to simply list the typos that appear in the Kalbfleish and Prentice data. 
+Here they are in case you don't have them:
+In the K&P data IDs 16,32,35 and 37 appear twice. Cross checking with
+the Crowley and Hu data shows the duplicates to be :
+ID 16 with AGE=56 should be ID 18
+ID 32 with AGE=41 should be ID 52
+ID 35 with AGE=52 should be ID 55
+ID 37 with AGE=41 should be ID 57
+
+Aparna
+
+***********************************
+	Aparna V. Huzurbazar
+	Assistant Professor
+	Department of Statistics
+	103 Griffin Floyd Hall
+	University of Florida
+	Gainesville, FL 32611-8545
+	ph: (904)-392-1941 X241
+	FAX:(904)-392-5175
+***********************************
+

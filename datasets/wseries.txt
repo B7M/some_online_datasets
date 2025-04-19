@@ -1,0 +1,62 @@
+These data tell whether or not the home team won for each game played in all
+World Series prior to 1994.  The data appear as the STATS Challenge for Issue
+11.
+
+DATA:
+
+Submitted by Jeff Witmer, Oberlin College, Oberlin, Ohio
+		e-mail: fwitmer@ocvaxa.cc.oberlin.edu
+
+Below are data on wins and losses for all World Series games, starting in 1903
+and ending in 1993.  (There was no World Series in 1904.)  For each year the
+data are presented from the point of view of the eventual winner.  A capital L
+means that the eventual Series winner lost at home; a lower case l means they
+lost on the road.  Likewise, a capital W means that the eventual Series winner
+won at home and a lower case w means that they won on the road.
+
+Note that in 1903, 1919, 1930, and 1921 the contests were best-five-out-of-nine
+series; in other years they are best-four-out-of-seven series.
+
+Here are a few questions you might consider as you analyze these data:
+
+1) Is there a constant probability of winning within a given series, or is
+there evidence of, e.g., a home field advantage?
+
+2) Is there independence in the outcome from game to game?  If not, is there a
+simple kind of conditional independence from game to game?
+
+Some authors have found a propensity for the team that has just lost to win the
+next game. What do you think?
+
+L= loss at home
+l= loss on road
+W= win at home
+w= win on road
+
+1903  LWLlwwwW	  1927  wwWW	  1950  wwWW	  1973  WLwllWW
+1905  wLwWW	  1928  WWww	  1951  LWlwwW	  1974  wlWWW
+1906  wLwLwW	  1929  wwLWW	  1952  lwLWLww	  1975  lwWLWlw
+1907  WWww	  1930  WWllwW	  1953  WWllwW	  1976  WWww
+1908  wWLww	  1931  LWwlwLW	  1954  WWww	  1977  WLwwlW
+1909  WLwlWlw	  1932  WWww	  1955  llWWWlw	  1978  llWWWw
+1910  WWwlw	  1933  WWlww	  1956  llWWWlw	  1979  lwLLWww
+1911  lWwWlW	  1934  wlWLLww	  1957  lwLWWlw	  1980  WWllwW
+1912  wLwWlLW	  1935  LWwwlW	  1958  llWLWww	  1981  llWWWw
+1913  wLwWw	  1936  lwWWLw	  1959  lwWWLw	  1982  LWwllWW
+1914  wwWW	  1937  WWwlw	  1960  WLlwwLW	  1983  LWwww
+1915  lwWWw	  1938  wwWW	  1961  WLwww	  1984  wlWWW
+1916  WWlwW	  1939  WWww	  1962  wlWLWlw	  1985  LLwlwWW
+1917  WWllWw	  1940  LWlwlWW	  1963  wwWW	  1986  LLwwlWW
+1918  wlwWLW	  1941  WLwww	  1964  WLlwwLW	  1987  WWlllWW
+1919  WWlwwLLw	  1942  LWwww	  1965  llWWWlw	  1988  WWlww
+1920  wllWWWW	  1943  WLWww	  1966  wwWW	  1989  WWww
+1921  LlWwLwWw	  1944  LWlwwW	  1967  wlWWLlw	  1990  WWww
+1922  WWwW	  1945  LWLwwlw	  1968  lwLLWww	  1991  WWlllWW
+1923  LwLwWw	  1946  LWlwlww	  1969  lwWWW	  1992  lwWWLw
+1924  LWlwlWW	  1947  WWllwLW	  1970  wwWLW	  1993  WLwwlW
+1925  LWllwWW	  1948  lwWWLw	  1971  llWWWlw	
+1926  lwWLLww	  1949  WLwww	  1972  wwLWLlw	
+
+The data description and the data may be freely used for non-commercial
+purposes and may be freely distributed.  Copyright remains with the author and
+with STATS magazine.

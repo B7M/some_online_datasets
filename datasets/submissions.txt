@@ -1,0 +1,49 @@
+Send submissions of datasets to
+statlib-submit@lib.stat.cmu.edu.
+
+If you have any doubts of the suitability or appropriate format for
+the information, please contact me  at
+vlachos@andrew.cmu.edu.
+
+If you indend to submit anything I will need THREE pieces of information;
+
+  (1) A short summary that gives information about the submission.
+      This should be just a few (not more than two 80 char lines)
+      lines which I will place in the index file.  It should concisely
+      describe what your submission does or is.  See the current
+      general index for the format and length of summaries.  Please
+      make this the first item in your submission (so that it can be
+      easily found). 
+
+  (2) The information which you would like to share.  I will take
+      whatever you send me and place it in a file.  This file will
+      then be available to other people.  If your submission is just
+      one file then this should be fine. If you want to submit multiple
+      related files then please package them in a reasonable way.
+      If you can, I suggest you create a SHAR file (a Unix shell
+      archive) and include a README file that describes what the
+      submission does and how to use it and a manual page.
+      PLEASE INCLUDE YOUR NAME AND E-MAIL ADDRESS PROMINENTLY IN YOUR
+      SUBMISSION AND INDICATE IF YOU ARE WILLING TO HELP PEOPLE WHO
+      HAVE PROBLEMS. 
+
+  (3) A statement (which should also be part of the submission) that
+      explicity gives permission to redistribute the software or
+      dataset.  You can retain the copyright just so long as you
+      clearly state that the software or dataset can be freely used
+      for non-commercial purposes and can be freely distributed.
+      If you are not the original author of the submission please make sure
+      you obtain the original author's permission before submitting
+      the software or dataset.
+
+If your submission does not conform to these minimal suggestions I
+will be forced to ask you to resubmit.
+
+I will not test any submitted software in any way, nor will I provide
+editorial comments about the quality of the software.  I will merely
+redistribute whatever is sent to me. 
+
+StatLib submissions are still processed manually, approximately once a
+month.
+
+The Statlib Archivist.

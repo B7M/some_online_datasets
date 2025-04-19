@@ -1,0 +1,1320 @@
+Following are data on the shooting of Vinnie Johnson of the Detroit
+Pistons during the 1985-1986 through 1988-1989 seasons. Source was the
+New York Times.
+
+The data are analyzed in the Carnegie Mellon Ph.D. Thesis of
+Kate Hsiao and some results are cited in Example 2 of Kass, R.E. and
+Raftery, A.E. (1995), Bayes Factors, J. Amer. Statist. Assoc.,
+773-795.
+
+The first column is the year, with 85 indicating 1985-1986, etc..
+The second column is Field Goals, the third column is Field Goal
+Attempts. 
+
+A more complete version of the data, including free throws, is
+appended together with additional information.
+
+85 3  10
+85 7  13
+85 5  11
+85 12  23
+85 7  13
+85 0  4
+85 2  5
+85 2  8
+85 2  9
+85 4  6
+85 1  6
+85 11  16
+85 5  13
+85 14  24
+85 3  11
+85 10  18
+85 10  20
+85 4  8
+85 3  7
+85 10  16
+85 8  14
+85 2  7
+85 7  15
+85 6  12
+85 9  16
+85 2  11
+85 11  23
+85 3  12
+85 4  9
+85 1  4
+85 6  16
+85 2  7
+85 4  11
+85 7  16
+85 7  15
+85 8  17
+85 7  14
+85 11  19
+85 6  13
+85 7  13
+85 5  9
+85 8  15
+85 10  19
+85 4  13
+85 5  10
+85 6  8
+85 5  14
+85 4  14
+85 6  11
+85 11  16
+85 12  18
+85 3  10
+85 7  12
+85 5  12
+85 11  16
+85 1  9
+85 6  13
+85 4  8
+85 5  10
+85 7  15
+85 3  9
+85 6  16
+85 5  10
+85 6  10
+85 6  13
+85 2  6
+85 4  10
+85 1  7
+85 9  15
+85 10  22
+85 5  12
+85 8  16
+85 3  16
+85 8  17
+85 3  7
+85 7  12
+85 9  15
+85 10  19
+85 2  10
+85 8  19
+85 9  17
+85 4  10
+85 1  3
+86 7  13
+86 5  15
+86 11  17
+86 9  16
+86 6  14
+86 7  17
+86 9  20
+86 1  4
+86 9  22
+86 10  17
+86 11  21
+86 6  12
+86 9  17
+86 5  12
+86 9  16
+86 10  17
+86 6  14
+86 12  16
+86 4  7
+86 7  14
+86 7  14
+86 5  12
+86 10  18
+86 3  10
+86 6  15
+86 7  14
+86 5  13
+86 5  16
+86 3  9
+86 8  16
+86 8  16
+86 10  17
+86 8  17
+86 7  18
+86 3  10
+86 3  13
+86 8  10
+86 7  15
+86 8  14
+86 6  11
+86 3  12
+86 11  22
+86 9  14
+86 10  20
+86 8  21
+86 6  13
+86 2  9
+86 5  13
+86 6  17
+86 4  7
+86 4  12
+86 7  15
+86 1  6
+86 13  21
+86 7  18
+86 10  16
+86 8  13
+86 4  10
+86 2  8
+86 12  19
+86 3  11
+86 6  14
+86 7  16
+86 3  10
+86 7  17
+86 15  25
+86 3  11
+86 9  25
+86 10  16
+86 7  21
+86 4  11
+86 7  15
+86 7  13
+86 7  15
+86 9  20
+86 6  15
+86 7  18
+86 4  16
+86 6  13
+86 6  18
+86 8  16
+86 5  13
+86 6  14
+86 2  8
+86 2  9
+86 6  14
+86 7  15
+86 7  11
+86 6  16
+86 12  20
+86 8  13
+86 9  15
+86 5  12
+87 6  14
+87 6  14
+87 5  13
+87 13  19
+87 6  14
+87 9  18
+87 9  16
+87 2  7
+87 9  20
+87 8  18
+87 6  11
+87 4  13
+87 9  20
+87 6  12
+87 7  16
+87 4  10
+87 0  3
+87 5  11
+87 2  6
+87 4  8
+87 3  7
+87 1  8
+87 2  10
+87 3  10
+87 12  19
+87 7  16
+87 4  14
+87 8  14
+87 9  21
+87 3  10
+87 10  20
+87 6  10
+87 8  13
+87 3  11
+87 9  15
+87 7  13
+87 9  13
+87 1  5
+87 2  5
+87 2  8
+87 0  3
+87 7  14
+87 5  13
+87 5  9
+87 4  11
+87 2  10
+87 10  16
+87 5  16
+87 1  6
+87 7  17
+87 6  13
+87 3  9
+87 0  5
+87 8  15
+87 3  9
+87 5  10
+87 0  3
+87 6  11
+87 3  9
+87 6  13
+87 3  7
+87 7  13
+87 5  12
+87 4  10
+87 1  4
+87 0  5
+87 1  5
+87 9  17
+87 5  8
+87 7  14
+87 4  11
+87 3  10
+87 4  12
+87 6  12
+87 4  10
+87 7  12
+87 6  10
+87 7  12
+87 6  12
+87 4  12
+87 8  17
+87 9  16
+87 0  6
+87 2  9
+87 3  8
+87 3  6
+87 4  10
+87 4  14
+87 2  8
+87 9  13
+87 7  10
+87 3  12
+87 5  9
+87 9  18
+87 5  11
+87 1  5
+87 0  1
+87 10  15
+87 7  11
+87 3  14
+87 3  11
+87 6  11
+87 8  16
+87 2  7
+87 5  14
+88 4  8
+88 1  7
+88 8  13
+88 7  12
+88 3  8
+88 1  3
+88 3  7
+88 2  8
+88 2  3
+88 6  17
+88 6  9
+88 4  8
+88 8  18
+88 5  13
+88 5  10
+88 1  5
+88 7  16
+88 0  4
+88 4  12
+88 3  7
+88 2  7
+88 3  9
+88 7  15
+88 9  16
+88 8  16
+88 5  13
+88 2  8
+88 9  15
+88 9  16
+88 4  11
+88 2  8
+88 7  15
+88 5  10
+88 7  12
+88 7  12
+88 7  12
+88 9  20
+88 8  16
+88 10  22
+88 10  16
+88 4  13
+88 9  18
+88 10  17
+88 9  16
+88 4  10
+88 8  17
+88 1  11
+88 9  18
+88 9  16
+88 3  8
+88 3  8
+88 3  9
+88 13  21
+88 6  11
+88 7  10
+88 4  12
+88 4  11
+88 3  10
+88 4  12
+88 9  10
+88 12  20
+88 6  16
+88 0  5
+88 2  4
+88 5  11
+88 4  14
+88 0  4
+88 10  16
+88 1  5
+88 10  21
+88 4  13
+88 6  14
+88 11  23
+88 9  13
+88 7  11
+88 13  22
+88 3  10
+88 5  9
+88 4  10
+88 7  16
+88 1  7
+88 10  17
+88 1  9
+88 5  10
+88 10  18
+88 5  11
+88 7  14
+88 5  12
+88 1  5
+88 3  11
+88 4  11
+88 6  14
+88 3  8
+88 8  14
+88 3  13
+88 9  14
+88 8  14
+88 8  11
+88 5  11
+
+
+---------------------------------------------------------
+
+Notes on fuller version of data
+1.   No game = no game was played by the Pistons that day.
+     No games scheduled = no games were scheduled for the entire NBA.
+
+2.  The dates of the Pistons' last games vary from year to year
+depending on whether they made it to the playoffs or not and to what
+level in the playoffs.  That's why for example in the 1985-1986 season
+the last game was played in April but in the 1988-1989 season the last
+game was played in June.
+  
+3.  The dates of the scores correspond with the dates the scores that
+were reported in the newspaper.  In other words the scores were
+reported in the newspaper the day after the game was played.
+ 
+---------------------------------------------------------
+
+first column contains scores for "FG" Field Goals (3-10 means 3 scored
+out of 10 attempts)
+second column contains scores for "FT" Field Goal Attempts
+third column contains scores for "Pts."  Total number of points scored
+
+1985-1986 Season
+
+Start of the regular season:  [Official season started on Oct. 25]
+Oct. 26-    3-10  2-2  8
+Oct. 27-    7-13  2-3  16
+Oct. 28-    No Game
+Oct. 29-    No Games scheduled
+Oct. 30-    5-11  1-2   11
+Oct. 31-    12-23  2-2  26
+
+Nov. 1-     No Game
+Nov. 2-     7-13  2-2  16
+Nov. 3-     0-4  0-0  0
+Nov. 4-     No Game
+Nov. 5-     No Games scheduled
+Nov. 6-     No Game
+Nov. 7-     Did not play
+Nov. 8-     No Game
+Nov. 9-     Did not play
+Nov. 10-    Did not play
+Nov. 11-    No Game
+Nov. 12-    No Game
+Nov. 13-    2-5  0-0  4
+Nov. 14-    2-8  0-0  5
+Nov. 15-    No Game
+Nov. 16-    2-9  0-0  4
+Nov. 17-    No Game
+Nov. 18-    No Game
+Nov. 19-    No Games scheduled
+Nov. 20-    No Game
+Nov. 21-    4-6  6-7  14
+Nov. 22-    No Game
+Nov. 23-    1-6  0-0  2
+Nov. 24-    11-16  3-4  25
+Nov. 25-    No Game
+Nov. 26-    No Game
+Nov. 27-    5-13  4-4  14
+*Nov. 28-*   14-24  7-7  35
+Nov. 29-    No Games scheduled
+Nov. 30-    3-11 0-0  6
+
+Dec. 1-     10-18  5-7  25
+Dec. 2-     No Game
+Dec. 3-     No Game
+Dec. 4-     10-20  2-5  22
+Dec. 5-     No Game
+Dec. 6-     4-8  3-5  11
+Dec. 7-     No Game
+Dec. 8-     3-7  0-0  6
+Dec. 9-     No Game
+Dec. 10-   No Games scheduled
+Dec. 11-    10-16  0-0  20
+Dec. 12-    8-14  2-2  18
+Dec. 13-    No Game
+Dec. 14-    2-7  2-4  6
+Dec. 15-    No Game
+Dec. 16-    7-15  1-4  15
+Dec. 17-    No Games scheduled
+Dec. 18-    6-12  8-9  20
+Dec. 19-    No Game
+Dec. 20-    9-16  2-2  20
+Dec. 21-    No Game
+Dec. 22-    2-11 1-2  5
+Dec. 23-    No Game
+Dec. 24-    No Game
+Dec. 25-    No Game
+Dec. 26-    No Game
+Dec. 27-    11-23  0-0  23
+Dec. 28-    3-12  1-2  7
+Dec. 29-    No Game
+Dec. 30-    No Game
+Dec. 31-    4-9 2-2  10
+
+Jan. 1-     No Games scheduled
+Jan. 2-     No Game
+Jan. 3-     1-4  4-5  6
+Jan. 4-     6-16  2-4  14
+Jan. 5-     No Game
+Jan. 6-     No Game
+Jan. 7-     No Game
+Jan. 8-     2-7  0-0  4
+Jan. 9-     No Game
+Jan. 10-    4-11  3-5  11
+Jan. 11-    No Game
+Jan. 12-    7-16  2-4  16
+Jan. 13-    No Game
+Jan. 14-    No Game
+Jan. 15-    No Game
+Jan. 16-    7-15  1-1  15
+Jan. 17-    No Game
+Jan. 18-    8-17  1-1  17
+Jan. 19-    No Game
+Jan. 20-    7-14  0-0  14
+Jan. 21-    11-19  5-5  27
+Jan. 22-    No Game
+Jan. 23-    6-13  3-3  15
+Jan. 24-    No Game
+Jan. 25-    7-13  0-0  14
+Jan. 26-    5-9  0-0  10
+Jan. 27-    No Game
+Jan. 28-    8-15  5-6  21
+Jan. 29-    No Game
+Jan. 30-    10-19  4-4  24
+Jan. 31-    No Game
+
+Feb. 1-     4-13  2-2  10
+Feb. 2-     5-10  4-4  14
+Feb. 3-     No game
+Feb. 4-     No game
+Feb. 5-     6-8  2-2  14
+Feb. 6-     No game
+Feb. 7-     5-14  3-4  13
+Feb. 8-     No games scheduled
+Feb. 9-     No games scheduled
+Feb. 10-    All Star Game - Did not play
+Feb. 11-    No games scheduled
+Feb. 12-    4-14  0-0  8
+Feb. 13-    6-11  1-2  13
+Feb. 14-    No game
+Feb. 15-    11-16  0-0  22
+Feb. 16-    12-18  1-2  25
+Feb. 17-    No game
+Feb. 18-    3-10  7-8  13
+Feb. 19-    No game
+Feb. 20-    7-12  3-3  17
+Feb. 21-    5-12  0-1  10
+Feb. 22-    No game
+Feb. 23-    11-16  0-0  22
+Feb. 24-    No game
+Feb. 25-    1-9  0-0  2
+Feb. 26-    No game
+Feb. 27-    6-13  4-4  16
+Feb. 28-    No game
+
+Mar. 1-     4-8  0-0  8
+Mar. 2-     No game
+Mar. 3-     5-10  1-2  11
+Mar. 4-     No game
+Mar. 5-     7-15  4-5  18
+Mar. 6-     No game
+Mar. 7-     No game
+Mar. 8-     3-9  2-3  8
+Mar. 9-     No game
+Mar. 10-    No game
+Mar. 11-    6-16  5-5  17
+Mar. 12-    No game
+Mar. 13-    5-10  2-3  12
+Mar. 14-    No game
+Mar. 15-    6-10  0-3  12
+Mar. 16-    No game
+Mar. 17-    6-13  3-4  15
+Mar. 18-    2-6  0-0  4
+Mar. 19-    No game
+Mar. 20-    4-10  2-5  10
+Mar. 21-    No game
+Mar. 22-    1-7  0-0  2
+Mar. 23-    9-15  2-2  20
+Mar. 24-    No game
+Mar. 25-    No game
+Mar. 26-    10-22  4-5  24
+Mar. 27-    No game
+Mar. 28-    No game
+Mar. 29-    5-12  3-4  13
+Mar. 30-    8-16  4-4  20
+Mar. 31-    No game
+
+Apr. 1-     No games scheduled
+Apr. 2-     3-16  1-2  7
+Apr. 3-     8-17  4-5  20
+Apr. 4-     No game
+Apr. 5-     3-7  2-2  8
+Apr. 6-     7-12  5-6  19
+Apr. 7-     No game
+Apr. 8-     9-15  1-2  19
+Apr. 9-     10-19  3-3  23
+Apr. 10-    No game
+Apr. 11-    No game
+Apr. 12-    2-10  2-2  6
+Apr. 13-    No game
+Apr. 14-    No game                  -End of the Regular Season
+Apr. 15-    No game
+Apr. 16-    No game
+Apr. 17-    No game
+Apr. 18-    8-19  0-0  16            -[First round of the playoffs]
+Apr. 19-    No game
+Apr. 20-    9-17  5-9  23
+Apr. 21-    No game
+Apr. 22-    No game
+Apr. 23-    4-10  2-4  10   
+Apr. 24-    No game
+Apr. 25-    No game
+Apr. 26-    1-3  0-0  2                -[End of the first round:Pistons lost]
+Apr. 27-                                      
+Apr. 28-
+Apr. 29-
+Apr. 30-
+
+
+1986-1987 Season
+
+Start of the regular season:  [Official season started on Oct. 31]
+Nov. 1-      7-13  5-5  19   
+Nov. 2-      5-15  2-2  12
+Nov. 3-      No game
+Nov. 4-      No game
+Nov. 5-      No game
+Nov. 6-      11-17  3-4  25
+Nov. 7-      No game
+Nov. 8-      9-16  3-4  21
+Nov. 9-      6-14  0-0  13
+Nov. 10-    No game
+Nov. 11-    No games scheduled
+Nov. 12-    No game
+Nov. 13-    7-17  2-2  16
+Nov. 14-    No game
+Nov. 15-    9-20  1-1  19
+Nov. 16-    1-4  0-0  2
+Nov. 17-    No game
+Nov. 18-    No games scheduled
+Nov. 19-    No game
+Nov. 20-    9-22  2-3  20
+Nov. 21-    No game
+Nov. 22-    10-17  5-5  25
+Nov. 23-    11-21  4-4  26
+Nov. 24-    No game
+Nov. 25-    No games scheduled
+Nov. 26-    No game
+*Nov. 27-*    No game
+Nov. 28-    No games scheduled
+Nov. 29-    6-12  1-3  13
+Nov. 30-    No game
+
+Dec. 1-      No game
+Dec. 2-      No games scheduled
+Dec. 3-      No game
+Dec. 4-      9-17  2-2  20
+Dec. 5-      5-12  0-0  10
+Dec. 6-      No game
+Dec. 7-      9-16  0-0  18
+Dec. 8-      No game
+Dec. 9-      No games scheduled
+Dec. 10-    No game
+Dec. 11-    10-17  0-0  20
+Dec. 12-    No game
+Dec. 13-    6-14  2-2  14
+Dec. 14-    12-16  1-3  25
+Dec. 15-    No game
+Dec. 16-    No games scheduled
+Dec. 17-    4-7  0-0  8
+Dec. 18-    Did not play
+Dec. 19-    No game
+Dec. 20-    Did not play
+Dec. 21-    7-14  4-5  18
+Dec. 22-    No game
+Dec. 23-    No game
+Dec. 24-    7-14  0-0  14
+Dec. 25-    No games scheduled
+Dec. 26-    No game
+Dec. 27-    Did not play
+Dec. 28-    Did not play
+Dec. 29-    No game
+Dec. 30-    No game
+Dec. 31-    5-12  5-6  15
+
+Jan. 1-      No games scheduled
+Jan. 2-      No game
+Jan. 3-      10-18  2-2  22
+*Jan. 4-      3-10  0-0  6
+Jan. 5-      No game
+Jan. 6-      No game
+Jan. 7-      No game
+Jan. 8-      6-15  2-3  14
+Jan. 9-      No game
+Jan. 10-    7-14  4-5  18
+Jan. 11-    5-13  0-0  10
+Jan. 12-    No game
+Jan. 13-    No game
+Jan. 14-    5-16  1-2  11
+Jan. 15-    3-9  4-4  10
+Jan. 16-    No game
+Jan. 17-    8-16  2-3  18
+Jan. 18-    8-16  2-5  18
+Jan. 19-    No game
+Jan. 20-    10-17  0-0  20
+Jan. 21-    No game
+Jan. 22-    8-17  5-5  21
+Jan. 23-    No game
+Jan. 24-    7-18  0-0  14
+Jan. 25-    3-10  0-0  6
+Jan. 26-    No game
+Jan. 27-    3-13  2-2  8
+Jan. 28-    8-10  5-6  21
+Jan. 29-    No game
+Jan. 30-    7-15  0-1  14
+Jan. 31-    No game
+
+Feb. 1-      8-14  4-4  20
+Feb. 2-      6-11  0-0  12
+Feb. 3-      No game
+Feb. 4-      No game
+Feb. 5-      No game
+Feb. 6-      3-12  2-2  8
+Feb. 7-      No game scheduled
+Feb. 8-      No game scheduled
+Feb. 9-      All Star Game - Did not play
+Feb. 10-    No games scheduled
+Feb. 11-    No game
+Feb. 12-    11-22  4-4  26
+Feb. 13-    9-14  3-3  21
+Feb. 14-    No game
+Feb. 15-    10-20  4-4  24
+Feb. 16-    No game
+Feb. 17-    No game
+Feb. 18-    8-21  2-2  18
+Feb. 19-    No game
+Feb. 20-    6-13  0-0  12
+Feb. 21-    No game
+Feb. 22-    2-9  4-5  8
+Feb. 23-    5-13  3-3  13
+Feb. 24-    No game
+Feb. 25-    6-17  2-2  14
+Feb. 26-    4-7  4-4  12
+Feb. 27-    No game
+Feb. 28-    4-12  4-8  13
+
+Mar. 1-      No game
+Mar. 2-      7-15  3-4  17
+Mar. 3-      No game
+Mar. 4-      No game
+Mar. 5-      1-6  1-2  3
+Mar. 6-      No game
+Mar. 7-      13-21  2-3  28
+Mar. 8-      No game
+Mar. 9-      7-18  2-2  16
+Mar. 10-    No game
+Mar. 11-    10-16  1-2  21
+Mar. 12-    8-13  0-0  16
+Mar. 13-    No game
+Mar. 14-    4-10  4-6  12
+*Mar. 15-*    2-8  0-0  5
+Mar. 16-    No game
+Mar. 17-    12-19  1-4  25
+Mar. 18-    No game
+Mar. 19-    3-11  0-0  6
+Mar. 20-    No game
+Mar. 21-    No game
+Mar. 22-    6-14  2-4  14
+Mar. 23-    No game
+Mar. 24-    7-16  2-2  16
+Mar. 25-    No game
+Mar. 26-    3-10  3-4  9
+Mar. 27-    7-17  0-0  15
+Mar. 28-    No game
+*Mar. 29-    15-25  0-0  30
+Mar. 30-    3-11  2-2  8
+Mar. 31-    No games scheduled
+
+Apr. 1-      9-25  5-6  23
+Apr. 2-      No game
+Apr. 3-      10-16  5-6  25
+Apr. 4-      7-21  4-6  18
+Apr. 5-      No game
+Apr. 6-      4-11  3-4  11
+Apr. 7-      No game
+Apr. 8-      7-15  0-0  14
+Apr. 9-      No game
+Apr. 10-    No game
+Apr. 11-    7-13  3-4  17
+Apr. 12-    No game
+Apr. 13-    7-15  3-4  17
+Apr. 14-    9-20  2-3  20
+Apr. 15-    No game
+Apr. 16-    6-15  2-2  14
+Apr. 17-    No game
+Apr. 18-    7-18  1-1  15
+Apr. 19-    4-16  0-0  8
+Apr. 20-    No game                     -End of the official season
+Apr. 21-    No game
+Apr. 22-    No game
+Apr. 23-    No game
+Apr. 24-    No game
+Apr. 25-    6-13  0-0  12               -[First round of the playoffs] 
+Apr. 26-    No game
+Apr. 27-    6-18  2-2  4
+Apr. 28-    No game
+Apr. 29-    No game
+Apr. 30-    8-16  5-5  21                -[End of the first round]
+
+May 1-      No game
+May 2-      No game
+May 3-      No game
+May 4-      5-13  0-0  10                -[Second round of the playoffs]
+May 5-      No game
+May 6-      6-14  5-6  17
+May 7-      No game
+May 8-      No game
+May 9-      2-8  0-0  4
+May 10-    No game
+May 11-    2-9  0-0  4
+May 12-    No game
+May 13-    No game
+May 14-    6-14  5-6  17                 -[End of the second round]       
+May 15-    No game
+May 16-    No game
+May 17-    No game
+May 18-    No game
+May 19-    No game
+May 20-    7-15  1-1  15               [Start of the final round- playoffs ]
+May 21-    No game
+May 22-    7-11  0-0  14
+May 23-    No game
+May 24-    6-16  2-2  14
+*May 25-    12-20  1-4  25
+May 26-    No game
+May 27-    8-13  4-4  20
+May 28-    No game
+May 29-    9-15  6-6  24
+May 30-    No game
+May 31-    5-12  0-0  10               [End of the final round-Detroit lost]
+
+1987-1988 Season
+
+Start of the regular season:    [Official season started on Nov. 6]
+Nov. 7-      6-14  6-7  18
+Nov. 8-      6-14  2-2  14
+Nov. 9-      No game
+Nov. 10-    No game
+Nov. 11-    5-13  2-3  12
+Nov. 12-    No game
+Nov. 13-    No game
+Nov. 14-    13-19  1-1  27
+Nov. 15-    6-14  4-4  16
+Nov. 16-    No game
+Nov. 17-    No games scheduled
+Nov. 18-    No game
+Nov. 19-    9-18  2-3  20
+Nov. 20-    No game
+Nov. 21-    9-16  1-1  19
+Nov. 22-    2-7  2-6  6
+Nov. 23-    No game
+Nov. 24-    No game
+Nov. 25-    9-20  8-10  26
+*Nov. 26-*    8-18  0-0  16
+Nov. 27-    No game
+Nov. 28-    6-11  5-7  17
+Nov. 29-    4-13  4-6  12
+Nov. 30-    No game
+
+Dec. 1-      No game
+Dec. 2-      9-20  1-1  19
+Dec. 3-      6-12  0-2  12
+Dec. 4-      No game
+Dec. 5-      7-16  4-5  18
+Dec. 6-      No game     
+Dec. 7-      No game
+Dec. 8-      No games scheduled
+Dec. 9-      4-10  4-5  12
+Dec. 10-    No game
+Dec. 11-    No game
+Dec. 12-    0-3  3-4  3
+*Dec. 13-*    5-11  0-1  10
+Dec. 14-    No game   
+Dec. 15-    No game
+Dec. 16-    2-6  0-0  4
+Dec. 17-    No game
+Dec. 18-    No game
+Dec. 19-    4-8  1-2  9
+Dec. 20-    No game
+Dec. 21-    No game
+Dec. 22-    No game
+Dec. 23-    No game
+Dec. 24-    No game
+Dec. 25-    No games scheduled
+Dec. 26-    3-7  1-4  7
+*Dec. 27-*    1-8  2-2  4
+Dec. 28-    No game
+Dec. 29-    No game 
+Dec. 30-    2-10  1-2  5
+Dec. 31-    3-10  0-0  6
+
+*Jan. 1-*      No game
+*Jan. 2-*      No game
+Jan. 3-      12-19  0-0  24
+Jan. 4-      No game
+Jan. 5-      No game
+Jan. 6-      7-16  0-2  14
+*Jan. 7-*      4-14  1-1  9
+Jan. 8-      No game
+Jan. 9-      8-14  2-2  19
+Jan. 10-    No game
+Jan. 11-    No game
+Jan. 12-    No game
+Jan. 13-    No game
+Jan. 14-    9-21  0-2  18
+Jan. 15-    No game
+Jan. 16-    3-10  0-0  6
+Jan. 17-    10-20  2-2  22
+Jan. 18-    No game
+Jan. 19-    6-10  6-10  18
+Jan. 20-    No game
+Jan. 21-    8-13  3-5  19
+Jan. 22-    No game
+Jan. 23-    3-11  2-2  8
+Jan. 24-    No game
+Jan. 25-    9-15  2-2  20
+Jan. 26-    No game
+Jan. 27-    No game
+Jan. 28-    7-13  1-2  15
+Jan. 29-    No game
+Jan. 30-    9-13  1-3  19
+Jan. 31-    1-5  0-0  2
+
+Feb. 1-      No game
+Feb. 2-      2-5  0-0  4
+Feb. 3-      2-8  0-0  4
+Feb. 4-      No game
+Feb. 5-      0-3  0-0  0
+Feb. 6-      No games scheduled
+Feb. 7-      No games scheduled
+Feb. 8-      All Star Game - Did not play
+Feb. 9-      No games scheduled
+Feb. 10-    7-14  1-1  15
+Feb. 11-    5-13  2-4  12
+Feb. 12-    No game
+Feb. 13-    5-9  3-4  13
+Feb. 14-    4-11 1-2  9
+Feb. 15-    No game
+Feb. 16-    2-10  0-0  4
+Feb. 17-    No game
+Feb. 18-    No game
+Feb. 19-    10-16  6-6  27
+Feb. 20-    5-16  2-3  12
+Feb. 21-    No game
+Feb. 22-    1-6  2-4  4
+Feb. 23-    No game
+Feb. 24-    7-17  1-1  15
+Feb. 25-    6-13  4-4  16
+Feb. 26-    No game
+Feb. 27-    3-9  3-3  9
+Feb. 28-    No game
+Feb. 29-    0-5  0-0  0
+
+Mar. 1-      No game
+Mar. 2-      8-15  4-4  20
+Mar. 3-      3-9  0-0  6
+Mar. 4-      No game
+Mar. 5-      No game
+Mar. 6-      5-10  7-8  17
+Mar. 7-      0-3  0-0  0
+Mar. 8-      No game
+Mar. 9-      6-11  0-2  12
+Mar. 10-    3-9  0-2  6
+Mar. 11-    No game
+Mar. 12-    6-13  2-3  14
+Mar. 13-    3-7  0-2  6
+Mar. 14-    No game
+Mar. 15-    7-13  0-0  14
+Mar. 16-    No game
+Mar. 17-    No game
+Mar. 18-    5-12   6-8  16
+Mar. 19-    No game
+Mar. 20-    No game
+Mar. 21-    4-10  1-4  9
+Mar. 22-    No game
+Mar. 23-    1-4  2-4  4
+Mar. 24-    No game
+Mar. 25-    No game
+Mar. 26-    0-5  0-2  0
+Mar. 27-    1-5  2-2  4
+Mar. 28-    No games scheduled
+Mar. 29-    9-17  0-2  19
+Mar. 30-    No game
+Mar. 31-    5-8  3-4  13
+
+Apr. 1-      No game
+Apr. 2-      7-14  1-2  15
+Apr. 3-      No game
+Apr. 4-      4-11  0-0  8
+Apr. 5-      No games scheduled
+Apr. 6-      3-10  0-0  6
+Apr. 7-      No game
+Apr. 8-      No game
+Apr. 9-      4-12  3-3  11
+Apr. 10-    6-12  5-6  18
+Apr. 11-    No game
+Apr. 12-    4-10  0-0  9
+Apr. 13-    No game
+Apr. 14-    7-12  2-3  16
+Apr. 15-    No game
+Apr. 16-    6-10  3-4  15
+Apr. 17-    7-12  0-0  14
+Apr. 18-    No game
+Apr. 19-    No game
+Apr. 20-    6-12  2-2  14
+Apr. 21-    No game
+Apr. 22-    4-12  3-4  11
+Apr. 23-    8-17  0-0  16
+Apr. 24-    No game
+Apr. 25-    9-16  2-2  20             -[End of the official season]
+Apr. 26-    No game
+Apr. 27-    No game
+Apr. 28-    No game
+Apr. 29-    0-6  4-4  4                 -[Start of the first round      
+             
+Apr. 30-    No game                          -playoffs]
+
+May 1-      2-9  5-8  9
+May 2-      No game
+May 3-      3-8  0-0  6
+May 4-      No game
+May 5-      3-6  0-0  6                 
+May 6-      No game
+May 7-      No game
+May 8-      No game
+May 9-      4-10  0-0  8                -[End of the first round]
+May 10-    No game
+May 11-    4-14  1-1  9                -[Start of the second round
+May 12-    No game                          -playoffs]
+May 13-    2-8  0-0  4 
+May 14-    No game
+May 15-    9-13  5-6  23
+May 16-    7-10  0-0  14
+May 17-    No game
+May 18-    No game
+May 19-    3-12  0-0  6                -[End of the second round]
+May 20-    No game
+May 21-    No game
+May 22-    No game
+May 23-    No game
+May 24-    No game
+May 25-    No game
+May 26-    5-9  2-4  12               -[Start of the final round-playoffs]
+May 27-    9-18  3-3  21
+May 28-    No game
+May 29-    5-11  1-2  11
+*May 30-*    No game
+May 31-    1-5  0-0  2
+
+June 1-      No game
+June 2-      0-1  0-0  0
+June 3-      No game
+June 4-      10-15  4-4  24           -[End of the final round]
+June 5-      No game
+June 6-      No game
+June 7-      No game
+June 8-      7-11  1-5  16             -[Start of the finals-championship]
+June 9-      No game    
+June 10-    3-14  2-4  8
+June 11-    No game
+June 12-    No game
+June 13-    3-11  0-0  6
+June 14-    No game
+June 15-    6-11  4-7  16
+June 16-    No game
+June 17-    8-16  0-0  16
+June 18-    No game
+June 19-    No game
+June 20-    2-7  1-2  5
+June 21-    No game
+June 22-    5-14  0-0  10              -[End of the finals-Detroit lost]
+
+1988-1989 Season
+
+Start of the regular season:  [Official season started on Nov. 4]
+Nov. 5-      4-8  3-4  11
+Nov. 6-      1-7  0-0  2
+Nov. 7-      No games scheduled
+Nov. 8-      No games scheduled
+Nov. 9-      8-13  1-6  17
+Nov. 10-    7-12  4-5  18
+Nov. 11-    No game  
+Nov. 12-    3-8  2-4  8
+Nov. 13-    No game
+Nov. 14-    No game
+Nov. 15-    No game
+Nov. 16-    1-3  1-2  3
+Nov. 17-    3-7  2-2  8
+Nov. 18-    No game
+Nov. 19-    2-8  2-4  6
+Nov. 20-    2-3  4-4  8
+Nov. 21-    No game
+Nov. 22-    No game
+Nov. 23-    6-17  1-1  13
+*Nov. 24-*    6-9  2-2  16
+Nov. 25-    No games scheduled
+Nov. 26-    No game
+Nov. 27-    4-8  0-0  9
+Nov. 28-    No game
+Nov. 29-    No game
+Nov. 30-    8-18  2-5  19
+
+Dec. 1-      5-13  0-0  10
+Dec. 2-      No game
+Dec. 3-      5-10  0-0  11
+Dec. 4-      No game
+Dec. 5-      1-5  0-0  2
+Dec. 6-      No games scheduled
+Dec. 7-      7-16  1-2  16
+Dec. 8-      0-4  0-0  0
+Dec. 9-      No game
+Dec. 10-    4-12  2-2  10
+Dec. 11-    3-7  1-2  7
+Dec. 12-    No game
+Dec. 13-    No game
+Dec. 14-    No game
+Dec. 15-    2-7  0-0  4
+Dec. 16-    3-9  0-1  6
+Dec. 17-    No game
+Dec. 18-    7-15  1-1  15
+Dec. 19-    No game
+Dec. 20-    No game scheduled
+Dec. 21-    9-16  4-5  22
+Dec. 22-    No game
+Dec. 23-    8-16  3-4  19
+Dec. 24-    No games scheduled
+Dec. 25-    No games scheduled
+Dec. 26-    No game
+Dec. 27-    No game
+Dec. 28-    No game
+Dec. 29-    5-13  2-2  12
+Dec. 30-    No game
+Dec. 31-    2-8  3-4  7
+
+Jan. 1-      No games scheduled
+Jan. 2-      No games scheduled
+Jan. 3-      No game
+Jan. 4-      9-15  5-5  23
+Jan. 5-      No game
+Jan. 6-      No game
+Jan. 7-      9-16  0-0  18
+Jan. 8-      4-11  2-2  10
+Jan. 9-      No game
+Jan. 10-    No game
+Jan. 11-    No game
+Jan. 12-    2-8  0-0  4
+Jan. 13-    No game
+Jan. 14-    7-15  2-3  16
+Jan. 15-    No game
+Jan. 16-    5-10  0-0  10
+Jan. 17-    7-12  7-11  21
+Jan. 18-    No game
+Jan. 19-    7-12  2-3  16
+Jan. 20-    No game
+Jan. 21-    7-12  2-3  16
+Jan. 22-    No game
+Jan. 23-    9-20  6-8  24
+Jan. 24-    No game
+Jan. 25-    No game
+Jan. 26-    8-16  6-9  22
+Jan. 27-    No game
+Jan. 28-    10-22  2-3  22
+Jan. 29-    No game
+Jan. 30-    10-16  3-4  23
+Jan. 31-    No game
+
+Feb. 1-      4-13  2-3  10
+Feb. 2-      No game
+Feb. 3-      No game
+Feb. 4-      9-18  4-5  22
+Feb. 5-      No game
+Feb. 6-      10-17  7-8  27
+Feb. 7-      No game
+Feb. 8-      No game
+Feb. 9-      9-16  1-1  19
+Feb. 10-    No game
+Feb. 11-    No games scheduled
+Feb. 12-    No games scheduled
+Feb. 13-    All Star Game - Did not play
+Feb. 14-    No games scheduled
+Feb. 15-    4-10  2-2  10
+Feb. 16-    No game
+Feb. 17-    8-17  4-5  20
+Feb. 18-    No game
+Feb. 19-    1-11  0-0  2
+Feb. 20-    No game
+Feb. 21-    9-18  3-4  21
+Feb. 22-    No game
+Feb. 23-    9-16  0-0  18
+Feb. 24-    No game
+Feb. 25-    No game
+Feb. 26-    3-8  1-1  7
+Feb. 27-    3-8  5-7  11
+Feb. 28-    No game
+
+Mar. 1-      3-9  1-2  7
+Mar. 2-      13-21  8-8  34
+Mar. 3-      No game
+Mar. 4-      6-11  1-1  13
+Mar. 5-      No game
+Mar. 6-      7-10  8-9  22
+Mar. 7-      4-12  2-2  10
+Mar. 8-      No game
+Mar. 9-      4-11  0-0  8
+Mar. 10-    No game
+Mar. 11-    No game
+*Mar. 12-*    3-10  0-0  6
+Mar. 13-    4-12  2-4  10
+Mar. 14-    No game
+Mar. 15-    9-10  6-7  24
+Mar. 16-    No game
+Mar. 17-    No game
+Mar. 18-    12-20  6-6  30
+Mar. 19-    6-16  2-4  14
+Mar. 20-    No game
+Mar. 21-    No game
+Mar. 22-    0-5  2-4  2
+Mar. 23-    2-4  4-4  8
+Mar. 24-    No game
+Mar. 25-    5-11  0-0  10
+Mar. 26-    4-14  2-4  11
+Mar. 27-    No game
+Mar. 28-    0-4  2-2  2
+Mar. 29-    No game
+Mar. 30-    10-16  2-4  22
+Mar. 31-    No game
+
+Apr. 1-      1-5  1-2  3
+Apr. 2-      No game
+Apr. 3-      10-21  2-3  22
+Apr. 4-      No games scheduled
+Apr. 5-      4-13  5-7  14
+Apr. 6-      No game
+Apr. 7-      6-14  0-2  12
+Apr. 8-      11-23  6-9  30
+Apr. 9-      No game
+Apr. 10-    9-13  0-0  18
+Apr. 11-    7-11  7-7  21
+Apr. 12-    No game
+Apr. 13-    13-22  3-6  31
+Apr. 14-    No game
+Apr. 15-    3-10  4-6  10
+Apr. 16-    No game
+Apr. 17-    5-9  1-1  11
+Apr. 18-    No game
+Apr. 19-    4-10  0-0  8
+Apr. 20-    7-16  2-2  16
+Apr. 21-    No game
+Apr. 22-    1-7  5-6  7
+Apr. 23-    No game
+Apr. 24-    10-17  2-2  23               -[End of the regular season]
+Apr. 25-    No game
+Apr. 26-    No game
+Apr. 27-    No game
+Apr. 28-    No game
+Apr. 29-    1-9  0-0  2                     -[Start of the first
+round-playoffs]
+Apr. 30-    No game
+
+May 1-      5-10  8-10  18
+May 2-      No game
+May 3-      10-18  4-4  25                -[End of first round-playoffs]
+May 4-      No game
+May 5-      No game
+May 6-      No game
+May 7-      No game
+May 8-      No game
+May 9-      No game
+May 10-    No game
+May 11-    5-11  1-2  12                  -[Start of the second round-playoffs]
+May 12-    No game
+May 13-    7-14  6-8  21
+May 14-    No game
+May 15-    5-12  0-0  11
+May 16-    1-5  0-2  2                      -[End of the second round-playoffs]
+May 17-    No game 
+May 18-    No game
+May 19-    No game
+May 20-    No game
+May 21-    No game
+May 22-    3-11  2-2  8                     -[Start of the final
+round-playoffs]
+May 23-    No game
+May 24-    4-11  6-7  16
+May 25-    No game
+May 26-    No game
+May 27-    No game
+May 28-    6-14  5-5  19
+May 29-    No game
+May 30-    3-8  1-2  7
+May 31-    No game
+
+June 1-      8-14  5-5  22
+June 2-      No game
+June 3-      3-13  2-4  8                    -[End of the final round-playoffs]
+June 4-      No game
+June 5-      No game
+June 6-      No game
+June 7-      9-14  1-1  19                   -[Start of the
+finals-championship]
+June 8-      No game
+June 9-      8-14  1-1  18
+June 10-    No game
+June 11-    No game
+June 12-    8-11  1-2  17
+June 13-    No game
+June 14-    5-11  4-7  14                  -[End of the finals-Detroit wins]
+
+
+
